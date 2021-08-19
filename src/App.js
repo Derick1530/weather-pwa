@@ -32,7 +32,11 @@ const App = () => {
                     </div>
 
                 </div>
+
             )}
+            <div>
+                <h4 className="h4">Developed by Derick  Z</h4>
+            </div>
         </div>
     );
 
