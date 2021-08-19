@@ -85,6 +85,22 @@ p {
 .h4{
     color: white;
 }
+.icon-container{
+    display: flex;
+    
+}
+.socialIcon{
+    transition: 0.3s ease;
+color: white;
+border-radius: 50px;
+  padding: 8px;
+}
+.socialIcon:hover {
+    background-color: #8d8d8d8f;
+    transform: scale(1.2);
+    cursor: pointer;
+
+  }
 
 @media only screen and (max-width: 600px) {
     .search {

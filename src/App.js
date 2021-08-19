@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { fetchWeather } from './api/fetchWeather';
+import { AiFillGithub, AiFillTwitterCircle, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import './App.css';
+
 const App = () => {
     const [query, setQuery] = useState('');
     const [weather, setWeather] = useState('');
@@ -37,6 +39,14 @@ const App = () => {
             <div>
                 <h4 className="h4">Developed by Derick  Z</h4>
             </div>
+            <div className="icon-container">
+
+                <a className="socialIcon" target="_blank" rel="noreferrer" href="https://github.com/Derick1530 " ><AiFillGithub size="3rem" /></a>
+                <a className="socialIcon" target="_blank" rel="noreferrer" href="https://ug.linkedin.com/in/derick-zihalirwa-0b91691a6"><AiFillLinkedin size="3rem" /></a>
+                <a className="socialIcon" target="_blank" rel="noreferrer" href="https://https://twitter.com/Derickzihalirw5" ><AiFillTwitterCircle size="3rem" /></a>
+                <a className="socialIcon" target="_blank" rel="noreferrer" href="https://www.instagram.com/derickzihalirwa/"><AiFillInstagram size="3rem" /></a>
+            </div>
+
         </div>
     );
 
